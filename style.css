@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+}
+
+nav{
+    background-color: #2c2c2c;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar{
+    /* padding: 10px; */
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+.menubar li{
+   text-transform: uppercase;
+   display: inline-block;
+   padding: 15px;
+   letter-spacing: 1px;
+}
+
+.menubar li a{
+    color: antiquewhite;
+}
+
+.fa{
+    font-size: 20px!important;
+}
+/* -------------------------------------------- hero section ----------------- */
+
+.hero{
+    height: 100vh;
+    background: url(pics/banner-first.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-desc{
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    /* background-color: red; */
+    max-width: 600px;
+    width: 100%;
+}
+.heading{
+    font-size: calc(20px + 5vw);
+    color: antiquewhite;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.para{
+    font-size: 22px;
+    color: antiquewhite;
+
+}
+
+.head-btn{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color:#ff6409 ;
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* ------------------------------Tour Section------------------ */
+.tour-section{
+    padding: 70px;
+    background-color: #ff6409;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.tour-section .heading,.pricing .heading, .statistics .heading{
+    font-size: calc(20px + 2vw);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.tour-section .para, .pricing .para{
+    width: 60%;
+    margin: auto;
+    font-weight: 100;
+    letter-spacing:1px;
+    margin-top: 20px;
+}
+
+.tour-container, .pricing-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.part{
+    width: 30%;
+    height: 500px;
+    
+    background-color: aqua;
+    position: relative;
+}
+.part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #2c2c2c;
+    color: antiquewhite;
+    padding: 20px;
+}
+.bottom h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.bottom p{
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/* ------------------------------------------Pricing---------------- */
+
+.pricing,.statistics{
+    padding: 70px;
+    background-color: #2c2c2c;
+    text-align: center;
+}
+
+.card{
+    width: 30%;
+    padding: 25px;
+    color: antiquewhite;
+    border-radius: 10px;
+    background-color: #ff6409;
+    text-align: center;
+}
+
+.card img{
+    display: block;
+    margin: auto;
+    width:125px;
+}
+/* ---------------------------------------------- */
+.statistics .card{
+    background-color: #2c2c2c;
+}
+
+/* -----------------------new------------------------------- */
+
+
+
+.new
+{
+    height: 120vh;
+    background: url(pics/second.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.con{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+    /* background-color: red; */
+    max-width: 600px;
+    width: 100%;
+   
+}
+
+ .con .p1
+ {
+    font-size: 22px;
+     color: antiquewhite;
+ }
+
+ .con h1{
+    font-size: calc(20px + 2vw);
+    text-align: center;
+    text-transform: uppercase;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+ }
+/*------------------------------suscribe--------------------------------------------------------------- */
+.subscribe
+{
+    background-color:#ff6409;
+    text-align: center;
+    padding:50px;
+    width: 100%;
+  
+}
+
+
+.main
+{   
+    max-width: 600px;
+    /* background-color: red; */
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+.main .subscribeheading
+{
+    font-size: calc(20px + 2vw);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+
+.main .subscribepara
+{
+  font-size: 22px;
+ 
+  
+}
+
+
+.main .data
+{   display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.main .data input
+{
+    height: 100%;
+    width: 100%;
+    font-size: 22px;
+
+}
+.main .data button
+{
+    height: 100%;
+    width: 50%;
+    font-size: 22px ;
+    background-color: #2c2c2c;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+ /* -------------------footer------------------- */
+ #footer
+{
+    width :100%;
+    padding: 10px;
+    background-color: #2c2c2c;
+}
+.footercontainer
+{
+     max-width: 1200px;
+     width: 100%;
+     padding: 10px;
+     /* background-color: coral; */
+     margin: auto;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+    }
+ .footerpart
+{
+    width: calc(50% - 10px);
+    padding: 10px;
+    /* background-color: bisque; */
+  
+}
+
+.footerpartpart
+{
+    max-width: 600px;
+    padding: 10px;
+    width: 100%;
+    /* background-color: #ff6409; */
+    display: flex;
+  justify-content: space-between;
+}
+.footerpartone
+{
+    width: calc(33.3% - 10px);
+padding: 10px;
+/* background-color: aquamarine; */
+}
+
+.footerheading1
+{
+     text-transform: uppercase;
+    color: antiquewhite;
+
+}
+
+.footerpara
+{    
+    margin-top: 10px;
+    font-size: 21px;
+     color: antiquewhite;
+}
+.footerulist
+{
+    margin-top: 10px;
+    line-height:1.5;
+    color: antiquewhite;
+    list-style: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+
+ 
+
+ .footersubpart1
+ {
+       width: 280px;
+       padding: 10px;
+        /* background-color: yellow; 
+       */
+         display: flex;
+         justify-content: space-between;
+ }
+ 
+
+.footersubpart
+{
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+   border-radius: 50%;
+   background-color: antiquewhite;
+  text-align: center;
+  
+}   
+ 
+ 
+/* ---------------------------------------media query--------------------------------------------- */
+
+@media(max-width :990px)
+{ 
+     .pricing-container,.tour-container
+     {
+           justify-content: center;
+     }
+     .part,.card
+     {
+        width: 45%;
+        margin: 10px;
+     }
+     .footerpart{
+        width: 100%;
+     }
+}
+
+@media(max-width:768px)
+{
+    .navbar{
+        flex-direction: column;
+
+    }
+       .hero-desc,.con
+       {
+        left: 0;
+       } 
+}
+/* --------------------------------------------------------------------------- */
+@media(max-width:600px)
+{
+    .navbar .menubar li
+    {
+        font-size: 12px;
+}
+    .fa
+    {
+        font-size: 18px!important;
+
+    }
+    .hero-desc
+    {
+        text-align: center;
+    }
+
+
+.para{
+    font-size: 14px;
+}
+.part,.card
+{
+    width: 100%;
+    margin-bottom: 2px;
+}
+ .footerpartpart
+{
+  flex-direction: column;
+ 
+} 
+.footerpartone{
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

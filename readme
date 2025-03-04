@@ -1,0 +1,22 @@
+// Orange   #ff6409
+// grey    #2c2c2c
+
+//   fonts color
+
+
+
+//  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+// use 
+  
+.oswald-<uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
